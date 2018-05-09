@@ -1,0 +1,30 @@
+
+.main {
+	
+	height: 600px;
+	background-color: gray;
+}
+.vertical-block {
+	display: flex;
+	width: 600px;
+	height: 100px;
+	margin: auto;
+}
+.horizontal-block {
+	flex:2;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.horizontal-block + .horizontal-block {
+  margin-left: 20px;
+}
+
+.white {
+	background-color: white;
+}
+
+.split {
+	width: 600px;
+	height: 200px;
+	background-color: white;
+}
